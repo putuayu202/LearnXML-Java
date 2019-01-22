@@ -1,0 +1,87 @@
+?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Detail_Update">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:gravity="left"
+        android:orientation="vertical"
+        android:paddingTop="0dp"
+        android:visibility="visible">
+
+        <RelativeLayout
+            android:id="@+id/image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp">
+
+
+            <ImageView
+                android:id="@+id/picture"
+                android:layout_width="304dp"
+                android:layout_height="250dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/gambar"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/chat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp">
+
+            <TextView
+                android:id="@+id/Tchat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="@string/chat"
+                android:textAppearance="@style/chat"
+                />
+
+            <TextView
+                android:id="@+id/Tchat2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/have"
+                android:layout_centerHorizontal="true"
+                android:textAppearance="@style/have"
+                android:layout_below="@+id/Tchat"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/have2"
+                android:layout_centerHorizontal="true"
+                android:textAppearance="@style/have"
+                android:layout_below="@+id/Tchat2"
+                />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/next"
+            android:layout_marginTop="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/button2">
+
+            <TextView
+                android:id="@+id/Tnext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/next"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+    </LinearLayout>

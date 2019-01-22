@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Detail_Update">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="left"
+        android:orientation="vertical"
+        android:paddingTop="0dp"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="28dp">
+
+        <RelativeLayout
+            android:id="@+id/rectangle"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/Rectangle">
+
+
+            <ImageView
+                android:id="@+id/picture"
+                android:layout_width="60dp"
+                android:layout_height="45dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/Vector"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/lorem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp">
+
+            <TextView
+                android:id="@+id/Tlorem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="@string/lorem1"
+                android:textAppearance="@style/lorem1" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/ipsum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp">
+
+            <TextView
+                android:id="@+id/Tipsum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="@string/lorem2"
+                android:textAppearance="@style/ipsum" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:visibility="visible">
+
+            <RelativeLayout
+                android:id="@+id/user"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/Iuser"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:background="@drawable/user" />
+
+                <TextView
+                    android:id="@+id/Torga"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@+id/Iuser"
+                    android:text="@string/orga"
+                    android:textAppearance="@style/delapan" />
+
+                <TextView
+                    android:id="@+id/time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/Torga"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@+id/Iuser"
+                    android:text="@string/time"
+                    android:textAppearance="@style/delapan" />
+
+                <ImageView
+                    android:id="@+id/bulet"
+                    android:layout_width="8dp"
+                    android:layout_height="8dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_below="@+id/Torga"
+                    android:layout_toRightOf="@+id/time"
+                    android:background="@drawable/bulet" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/love"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="79dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/Ilove"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/love" />
+
+                <TextView
+                    android:id="@+id/Tlove"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@+id/Ilove"
+                    android:text="@string/love"
+                    android:textAppearance="@style/love"
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/komen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/Ikomen"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/komen" />
+
+                <TextView
+                    android:id="@+id/Tkomen"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_toRightOf="@+id/Ikomen"
+                    android:text="@string/komen"
+                    android:textAppearance="@style/love" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/share"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="15dp"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/Ishare"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/share" />
+
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

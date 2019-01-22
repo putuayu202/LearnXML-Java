@@ -1,0 +1,143 @@
+<resources>
+
+
+    <style name="chat">
+
+        <item name="android:textSize">
+            18sp
+        </item>
+
+        <item name="android:textColor">
+            #333333
+        </item>
+
+    </style>
+
+    <style name="have">
+
+        <item name="android:textSize">
+            12sp
+        </item>
+
+        <item name="android:textColor">
+            #333333
+        </item>
+
+    </style>
+
+    <style name="next">
+
+        <item name="android:textSize">
+            12sp
+        </item>
+
+        <item name="android:textColor">
+            #FFFFFF
+        </item>
+
+        <item name="android:textAlignment">center</item>
+
+    </style>
+    <style name="lorem1">
+
+        <item name="android:textSize">
+            18sp
+        </item>
+
+        <item name="android:textColor">
+            #333333
+        </item>
+        
+        <item name="android:textStyle">
+            bold
+        </item>
+
+    </style>
+
+    <style name="tgl">
+
+        <item name="android:textSize">
+            32sp
+        </item>
+
+        <item name="android:textColor">
+            #333333
+        </item>
+
+    </style>
+
+    <style name="ipsum">
+
+        <item name="android:textSize">
+            12sp
+        </item>
+
+        <item name="android:textColor">
+            #333333
+        </item>
+
+    </style>
+
+    <style name="duabelas">
+
+        <item name="android:textSize">
+            12sp
+        </item>
+
+        <item name="android:textColor">
+            #333333
+        </item>
+
+    </style>
+
+    <style name="love">
+
+        <item name="android:textSize">
+            12sp
+        </item>
+
+        <item name="android:textColor">
+            #000000
+        </item>
+
+    </style>
+
+    <style name="sepuluh">
+
+        <item name="android:textSize">
+            10sp
+        </item>
+
+        <item name="android:textColor">
+            #000000
+        </item>
+
+    </style>
+
+    <style name="delapan">
+
+        <item name="android:textSize">
+            8sp
+        </item>
+
+        <item name="android:textColor">
+            #000000
+        </item>
+
+    </style>
+
+    <style name="title">
+
+        <item name="android:textSize">
+            110dp
+        </item>
+
+        <item name="android:textColor">
+            #333333
+        </item>
+
+    </style>
+
+
+
+</resources>

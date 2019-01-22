@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateEvent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="left"
+        android:orientation="vertical"
+        android:paddingTop="0dp"
+        android:visibility="visible">
+
+        <RelativeLayout
+            android:id="@+id/title2"
+            android:layout_width="fill_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="30dp"
+            android:visibility="visible">
+            <TextView
+                android:id="@+id/Ttitle2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+
+                android:text="@string/title"
+                android:textAppearance="@style/sepuluh"
+                />
+            <EditText
+                android:id="@+id/Ehashtag2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/line"
+                android:ems="10"
+                android:maxLength="30"
+                android:layout_marginTop="30dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/grey"
+                android:textCursorDrawable="@drawable/cursor_campaign"
+                android:textSize="10sp" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/desc2"
+            android:layout_width="fill_parent"
+            android:layout_height="80dp"
+            android:visibility="visible">
+            <TextView
+                android:id="@+id/Tdesc2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:text="@string/desc2"
+                android:textAppearance="@style/sepuluh"
+                a/>
+            <EditText
+                android:id="@+id/Edes2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/line"
+                android:ems="10"
+                android:maxLength="30"
+                android:layout_marginTop="70dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/grey"
+                android:textCursorDrawable="@drawable/cursor_campaign"
+                android:textSize="10sp" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/loc"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:visibility="visible">
+            <TextView
+                android:id="@+id/Tloc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:text="@string/loc"
+                android:textAppearance="@style/sepuluh"
+                />
+
+            <ImageView
+                android:id="@+id/Iloc"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:background="@drawable/Ellipse"
+                android:layout_below="@+id/Tloc"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="5dp"
+                />
+            <EditText
+                android:id="@+id/Eloc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/line"
+                android:ems="10"
+                android:maxLength="30"
+                android:layout_marginTop="30dp"
+                android:paddingTop="10dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/grey"
+                android:textCursorDrawable="@drawable/cursor_campaign"
+                android:textSize="10sp" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/date"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:visibility="visible">
+            <TextView
+                android:id="@+id/Tdate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:text="@string/date"
+                android:textAppearance="@style/sepuluh"
+                />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:visibility="visible">
+            <RelativeLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/Ttglawal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tglawal"
+                    android:textAppearance="@style/delapan"
+                    />
+
+                <TextView
+                    android:id="@+id/Ttglawal2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/tglawal2"
+                    android:textAppearance="@style/duabelas"
+                    android:layout_below="@+id/Ttglawal"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/Twaktuawal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/wktuawal"
+                    android:textAppearance="@style/delapan"
+                    />
+
+                <TextView
+                    android:id="@+id/Twaktuawal2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/wktuawal2"
+                    android:layout_below="@+id/Twaktuawal"
+                    android:textAppearance="@style/duabelas"
+                    />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="10dp"
+            android:visibility="visible">
+            <RelativeLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/Ttglakhir"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tglakhir"
+                    android:textAppearance="@style/delapan"
+                    />
+
+                <TextView
+                    android:id="@+id/Ttglakhir2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/tglakhir2"
+                    android:textAppearance="@style/duabelas"
+                    android:layout_below="@+id/Ttglakhir"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/Twaktuakhir"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/wktuakhir"
+                    android:textAppearance="@style/delapan"
+                    />
+
+                <TextView
+                    android:id="@+id/Twaktuakhir2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/wktuakhir2"
+                    android:layout_below="@+id/Twaktuakhir"
+                    android:textAppearance="@style/duabelas"
+                    />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible">
+
+            <RelativeLayout
+                android:layout_weight="1"
+                android:id="@+id/bawah"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="10sp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/thases_line"
+                android:visibility="visible">
+
+                <ImageView
+                    android:id="@+id/lock"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="8sp"
+                    android:background="@drawable/lock"
+                    android:layout_centerVertical="true"
+                    android:layout_centerInParent="true"
+                    android:layout_alignParentTop="true" />
+
+                <TextView
+                    android:id="@+id/Tlock"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="30dp"
+                    android:text="@string/lock"
+                    android:textSize="8sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_weight="1"
+                android:id="@+id/bawah2"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="10sp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/thases_line"
+                android:visibility="visible">
+
+                <ImageView
+                    android:id="@+id/form"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="8sp"
+                    android:background="@drawable/app"
+                    android:layout_centerVertical="true"
+                    android:layout_centerInParent="true"
+                    android:layout_alignParentTop="true" />
+
+                <TextView
+                    android:id="@+id/Tform2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="30dp"
+                    android:text="@string/app"
+                    android:textSize="8sp"/>
+
+                <TextView
+                    android:id="@+id/Tform"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/Tform2"
+                    android:text="@string/form"
+                    android:textSize="8sp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_weight="1"
+                android:id="@+id/bawah3"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="10sp"
+                android:background="@drawable/thases_line"
+                android:visibility="visible">
+
+                <ImageView
+                    android:id="@+id/upload"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="8sp"
+                    android:background="@drawable/gunung"
+                    android:layout_centerVertical="true"
+                    android:layout_centerInParent="true"
+                    android:layout_alignParentTop="true" />
+
+                <TextView
+                    android:id="@+id/Tupload"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="30dp"
+                    android:text="@string/upload"
+                    android:textSize="8sp" />
+
+                <TextView
+                    android:id="@+id/Tupload2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_below="@+id/Tupload"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/photo"
+                    android:textSize="8sp" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

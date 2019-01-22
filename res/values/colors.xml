@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="white">#FFFFFF</color>
+    <color name="blue">#0B2E8D</color>
+    <color name="black">#000</color>
+    <color name="grey">#747272</color>
+    <color name="greydark">#515050</color>
+    <color name="BackgroundPage">#D2E5D7</color>
+    <color name="ungu">#9C27B0</color>
+    <color name="azzure">#8860D0</color>
+    <color name="gaje">#5680E9</color>
+    <color name="graytran">#CCFBFBFB</color>
+
+
+
+
+</resources>
